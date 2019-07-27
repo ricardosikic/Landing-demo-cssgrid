@@ -141,6 +141,7 @@ footer ul li {
 
     .content p {
         font-size: 1.5rem;
+        line-height: 1.8rem;
         color: black;
     }
 
@@ -151,10 +152,20 @@ footer ul li {
         width: 300px;
         height: 305px;
     }
+
+  
     
     footer {
         width: 100%;
         background: #fff;
+    }
+
+    footer ul {
+        margin-left: 20%;
+    }
+
+    footer ul li:nth-child(2) {
+        margin-right: 80%;
     }
 
 
